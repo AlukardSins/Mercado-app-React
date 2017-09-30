@@ -1,0 +1,101 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 80px;
+}
+
+.App-header {
+	background-color: #fff059;
+	height: 150px;
+	padding: 20px;
+}
+
+.App-title {
+	font-size: 1.5em;
+	color: black;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+a, a:visited, a:link {
+	color: #2196f3;
+	text-decoration: none;
+}
+
+input {
+	margin: 20px 0;
+	padding: 8px 10px;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	border-radius: 4px;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+input[type="submit"] {
+	min-width: 100px;
+	margin-left: 10px;
+	color: #efefef;
+	cursor: pointer;
+	background-color: #03A9F4;
+}
+
+input[type="submit"].requesting {
+	background-color: #efefef;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.search-header {
+	background-color: #fff059;
+}
+
+.Product {
+	margin-top: 25px;
+}
+
+.Product:not(:first-child) {
+	padding-top: 25px;
+	border-top: 1px solid #dfdfdf;
+	clear: both;
+}
+
+.Product div:not(:nth-child(2)), .Product a {
+	margin-top: 7px;
+}
+
+.Product a {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.productlist, .search-wrapper {
+	margin: auto;
+	max-width: 900px;
+}
+
+.productThumbnail {
+	float: left;
+	margin-right: 20px;
+}
+
+.productName {
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.productPrice {
+	color: #000;
+	font-size: 20px;
+}
+
+.productSold {
+	font-size: 12px;
+}
